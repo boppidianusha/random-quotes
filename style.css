@@ -1,0 +1,42 @@
+body{
+    background-color: whitesmoke;
+    height: 100%;
+    width: 100%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 215px;
+     
+}
+h1{
+    font-size: 40px;
+    color:black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#display{
+    font-size: 25px;
+    font-family: cursive;
+    color: cadetblue ;
+
+}
+#Author{
+    font-size: 20px;
+    color: darkgrey;
+    font-style: italic;
+
+}
+#generate{
+    width: 130px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 9px;
+    border: 1px solid rgb(109, 106, 106);
+}
+
+#generate:hover{
+    background-color: darkgrey;
+}
